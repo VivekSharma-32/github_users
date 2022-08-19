@@ -1,0 +1,32 @@
+.search-container {
+    background-color: black;
+    width: 100%;
+    height:200px;
+    display: flex;
+}
+.heading {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.search-input {
+    background-color: white !important;
+    outline: 0;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px auto;
+}
+.search-btn {
+    background-color: black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-transform: capitalize;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
