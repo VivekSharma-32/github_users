@@ -7,12 +7,7 @@ const format = "YYYY-MM-DD";
 function Card({ users, error }) {
   console.log(error);
   return (
-    <SimpleGrid
-      templateColumns="repeat(3, 1fr)"
-      gap={2}
-      m={10}
-      alignItems="center"
-    >
+    <SimpleGrid m={10} alignItems="center" columns={2} spacing={10}>
       {users
         ? users.map((user) => {
             return (
