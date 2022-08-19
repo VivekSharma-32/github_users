@@ -16,7 +16,7 @@ function App() {
     getGithubUsersData(users)
       .then((res) => {
         if (res.data) {
-          console.log(res.data);
+          setUsers(res.data);
         }
       })
       .catch((err) => setError(err.message));

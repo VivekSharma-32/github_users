@@ -5,7 +5,6 @@ import moment from "moment";
 const format = "YYYY-MM-DD";
 
 function Card({ users, error }) {
-  console.log(error);
   return (
     <SimpleGrid m={10} alignItems="center" columns={2} spacing={10}>
       {users
